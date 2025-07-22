@@ -1,0 +1,51 @@
+.info {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  color: #000000;
+}
+/*
+.info h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 3%;
+  color: #ffffff;
+}
+
+.info ul {
+  list-style: none;
+  padding-left: 0;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.info li {
+  margin-bottom: 15px;
+}
+
+.zona {
+  list-style: disc;
+  margin-top: 10px;
+  margin-left: 20px;
+  list-style-type: circle;
+}
+
+.info a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+} */
+
+.info span {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.4rem 0.8rem;
+  margin: 0.4rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
