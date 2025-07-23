@@ -1,0 +1,49 @@
+.services {
+  padding: 2rem;
+  text-align: center;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+  margin-top: 1.5rem;
+}
+
+.service {
+  background-color: #000000;
+  border: 1px solid #ff1617;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.service:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.services span {
+  color: #ffffff;
+  font-weight: bold;
+}
+.services h2 {
+  font-size: 2rem;
+  color: #000000;
+}
+
+/* Responsive: cuando el ancho sea menor a 600px, muestra 3 por fila */
+@media (max-width: 600px) {
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+

@@ -1,25 +1,39 @@
 import React from 'react';
+import './Services.css';
 
 const services = [
-  {
-    icon: '👤',
-    title: 'Sesiones individuales',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
+
   {
     icon: '📅',
-    title: 'Cobertura de eventos',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    text: 'Cobertura de Eventos',
+  },
+   {
+    icon: '📷',
+    text: 'Sesiones Individuales',
   },
   {
-    icon: '✨',
-    title: 'Edición profesional',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: '💑',
+    text: 'Sesiones de Pareja',
   },
   {
-    icon: '✨',
-    title: 'Edición profesional',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: '👨‍👩‍👧‍👦',
+    text: 'Sesiones Familiares',
+  },
+   {
+    icon: '💒',
+    text: 'XV / Bodas',
+  },
+   {
+    icon: '🙏',
+    text: 'Bautizos / 1er Comunion',
+  },
+  {
+    icon: '🤰',
+    text: 'Maternidad',
+  },
+  {
+    icon: '👨‍🎓👩‍🎓',
+    text: 'Graduaciones',
   },
 ];
 
@@ -32,7 +46,7 @@ const Services = () => {
           <div className="service" key={i}>
             <div className="icon">{s.icon}</div>
             <h3>{s.title}</h3>
-            <p>{s.text}</p>
+            <span>{s.text}</span>
           </div>
         ))}
       </div>

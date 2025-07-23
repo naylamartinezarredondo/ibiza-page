@@ -1,13 +1,11 @@
 .info {
   padding: 40px 20px;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
 }
-/*
 .info h2 {
   font-size: 2rem;
-  margin-bottom: 1rem;
-  margin-left: 3%;
   color: #ffffff;
 }
 
@@ -27,7 +25,6 @@
   list-style: disc;
   margin-top: 10px;
   margin-left: 20px;
-  list-style-type: circle;
 }
 
 .info a {
@@ -38,14 +35,4 @@
 
 .info a:hover {
   text-decoration: underline;
-} */
-
-.info span {
-  display: inline-block;
-  background-color: #000000;
-  color: #ffffff;
-  padding: 0.4rem 0.8rem;
-  margin: 0.4rem;
-  border-radius: 5px;
-  font-weight: bold;
 }
